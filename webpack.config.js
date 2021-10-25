@@ -46,10 +46,10 @@ module.exports = (env, options) => {
                 ]
             })
         ],
-        devserver: {
-            port: 8080,
-            open: true, // 자동 오픈
-            historyApiFallback: true
-        }   
+        // devServer: {
+        //     port: 8080,
+        //     open: true, // 자동 오픈
+        //     historyApiFallback: true
+        // }   
     }
 }
